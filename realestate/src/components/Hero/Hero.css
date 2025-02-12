@@ -5,7 +5,7 @@
     background-color: var(--black);
 }
 .hero-container{
-    justify-content: space-between;
+   justify-content: space-between;
     align-items: flex-end;
 }
 /*left side*/
@@ -47,6 +47,25 @@
     border: none;
     outline: none;
 }
+.search-bar button{
+    position: relative;
+    left: 27%;
+}
+
+.stats{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.stat:nth-child(1){
+    font-size: 2rem;
+}
+
+.stat>:nth-child(1)>:last-child{
+color: orange;
+
+}
+
 /* right side*/
  .image-container{
     width: 30rem;
