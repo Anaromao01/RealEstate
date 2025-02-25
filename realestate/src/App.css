@@ -1,9 +1,10 @@
 .App {
   position: relative;
   overflow-x: clip;
+  
 }
 
-.App > :nth-child(1) {
+.App>:nth-child(1) {
   background-color: var(--black);
   position: relative;
 }
@@ -15,6 +16,8 @@
   background: rgba(255, 255, 255, 0.522);
   filter: blur(100px);
   border-radius: 100px;
+  
+  
 }
 
 .app-color {
