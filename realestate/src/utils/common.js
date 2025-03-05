@@ -1,14 +1,13 @@
-
-
 export const getMenuStyles = (menuOpened) => {
     if (document.documentElement.clientWidth <= 800) {
       return { right: !menuOpened && "-100%" };
     }
-  };
-  
-  export const sliderSettings = {
+    return {}; // Added return for larger screens
+};
+
+export const sliderSettings = {
     slidesPerView: 1,
-    spaceBetween: 50,
+    spaceBetween: 20, // Adjusted space between slides for better responsiveness
     breakpoints: {
       480: {
         slidesPerView: 1,
@@ -23,5 +22,4 @@ export const getMenuStyles = (menuOpened) => {
         slidesPerView: 4,
       },
     },
-  
-  };
+};
